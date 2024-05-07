@@ -16,6 +16,14 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+.styled-text p {
+    color: #ff0000; /* Красный цвет текста */
+}
+
+.styled-text p:hover {
+    text-decoration: underline; /* Подчеркивание текста при наведении */
+}
+
 h1 {
     color: #007bff;
 }
