@@ -1,47 +1,33 @@
-/* styles.css */
-
 body {
-    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #FFFFFF;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
 }
 
 .container {
-    max-width: 800px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color:  #800080;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-.styled-text p {
-    color: #ff0000; /* Красный цвет текста */
-}
-
-.styled-text p:hover {
-    text-decoration: underline; /* Подчеркивание текста при наведении */
+    text-align: center;
 }
 
 h1 {
-    color: #007bff;
+    font-size: 3em;
+    border-right: 2px solid #BB86FC;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+    animation: typing 2s steps(22) forwards, blink 1s step-end infinite;
 }
 
-p {
-    line-height: 1.5;
+@keyframes typing {
+    from { width: 0; }
+    to { width: 12em; } /* Adjust according to your name length */
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-a {
-    color: #007bff;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
+@keyframes blink {
+    from, to { border-color: transparent; }
+    50% { border-color: #BB86FC; }
 }
