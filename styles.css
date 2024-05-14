@@ -1,7 +1,7 @@
 body {
     background-color: #121212;
     color: #FFFFFF;
-    font-family: 'Arial', sans-serif;
+    font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,7 +19,7 @@ h1 {
     white-space: nowrap;
     overflow: hidden;
     width: 0;
-    animation: typing 2s steps(22) forwards, blink 1s step-end infinite;
+    animation: typing 2s steps(22) forwards, blink 0.75s step-end infinite;
 }
 
 @keyframes typing {
