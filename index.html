@@ -1,15 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Business Card</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Nick's Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <h1 id="typewriter"></h1>
-    </div>
+    <header>
+        <h1 id="nickname"></h1>
+        <p class="status">какой то статус в красивом оформлении</p>
+    </header>
+
+    <section class="about-me">
+        <h2>Обо мне</h2>
+        <p>Привет! Я - программист, который любит создавать крутые вещи.</p>
+    </section>
+
+    <section class="projects">
+        <h2>Мои проекты</h2>
+        <div class="project-list">
+            <!-- Example projects -->
+            <a href="https://github.com/username/project1" target="_blank">
+                <img src="project1.jpg" alt="Project 1">
+            </a>
+            <a href="https://github.com/username/project2" target="_blank">
+                <img src="project2.jpg" alt="Project 2">
+            </a>
+        </div>
+    </section>
+
+    <section class="gratitude">
+        <h2>Люди которым я благодарен</h2>
+        <p>Спасибо моим друзьям и коллегам за поддержку.</p>
+    </section>
+
+    <section class="tech-stack">
+        <h2>Мой стек технологий</h2>
+        <p>HTML, CSS, JavaScript, Python, и другие.</p>
+    </section>
+
+    <section class="contact">
+        <h2>Контакты</h2>
+        <p>Email: example@example.com</p>
+        <p>GitHub: <a href="https://github.com/username" target="_blank">username</a></p>
+    </section>
+
+    <section class="wakatime">
+        <h2>Моя активность на WakaTime</h2>
+        <a href="https://wakatime.com/"><img src="https://wakatime.com/badge/user/" alt="Total time coded since May 9 2024" /></a>
+    </section>
+
     <script src="script.js"></script>
 </body>
 </html>
